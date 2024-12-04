@@ -1,7 +1,7 @@
 from src.pre_processing import load_data, prepare_data, clean_dataframe_text, balance_dataset
 
 # Load and prepare the training data
-TRAIN_DATA_PATH = "./data/twitter_training.csv.zip"
+TRAIN_DATA_PATH = ".venv/twitter_training.csv.zip"
 train_data = load_data(TRAIN_DATA_PATH)
 train_data_prepared = prepare_data(train_data)
 
