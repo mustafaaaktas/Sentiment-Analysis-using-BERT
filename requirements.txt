@@ -1,0 +1,15 @@
+# Core libraries
+numpy>=1.19
+pandas>=1.1
+
+# Visualization tools
+matplotlib>=3.3
+seaborn>=0.11
+
+# NLP tools
+nltk>=3.5
+wordcloud>=1.8
+
+# BERT-related tools (for future use in the project)
+transformers>=4.0
+torch>=1.6
